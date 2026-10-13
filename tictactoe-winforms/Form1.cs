@@ -51,6 +51,10 @@ namespace tictactoe_winforms
             {
                 xWon();
             }
+            else if (x4 && x5 && x6)
+            {
+                xWon();
+            }
             else if (x7 && x8 && x9)
             {
                 xWon();
@@ -76,6 +80,10 @@ namespace tictactoe_winforms
                 xWon();
             }
             else if (o1 && o2 && o3)
+            {
+                oWon();
+            }
+            else if (o4 && o5 && o6)
             {
                 oWon();
             }
